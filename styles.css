@@ -195,7 +195,7 @@ ul {
     header {
         display: grid;
         grid-template-columns: 1fr;
-        padding: 0;
+        background-color: coral;
     }
     .container {
         display: grid;
