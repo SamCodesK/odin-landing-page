@@ -64,12 +64,12 @@ body {
 }
 
 .sign:hover {
-    box-shadow: 0 0 6px #ffffff;
-    background: #f9faf8;
+    box-shadow: inset 0 0 0 3px #ffffff;
+    background: none;
 }
 
 .sign:hover a {
-    color: #3882F6;
+    color: #ffffff;
 }
 
 
@@ -132,7 +132,7 @@ ul {
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 0.5em;
+    gap: 1em;
     max-width: 200px;
 }
 
@@ -178,6 +178,26 @@ ul {
 .el1 {
     border: 2px solid white;
 }
+
+.sign-ell {
+    padding: 8px 1em;
+    border: none;
+    border-radius: 8px;
+    background-color: #1f2937;
+    color: white;
+    font-size: 16px;
+    width: 120px;
+}
+
+.sign-ell:hover {
+    box-shadow: inset 0 0 0 3px #ffffff;
+    background: none;
+}
+
+.sign-ell:hover a {
+    color: #ffffff
+}
+
 
 .footer {
     background-color: #1f2937;
